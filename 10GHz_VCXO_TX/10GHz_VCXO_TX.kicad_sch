@@ -784,6 +784,404 @@
 				)
 			)
 		)
+		(symbol "RF:AMK-2-13"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AMK-2-13"
+				(at 6.35 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "RF_Mini-Circuits:Mini-Circuits_CD542_LandPatternPL-052"
+				(at -6.35 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.minicircuits.com/pdfs/AMK-2-13+.pdf"
+				(at -3.81 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2x Frequency Multiplier, output 20 to 1000 MHz, 50 Ohm, Mini-Circuits CD542"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "frequency multiplier"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Mini?Circuits*CD542*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMK-2-13_0_0"
+				(text "2x"
+					(at 0 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "AMK-2-13_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AMK-2-13_1_1"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -6.35 -2.54 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 3.81)
+					(name "F_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 3.81) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 3.81) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 3.81)
+					(name "2F_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RF:RMK-3-451"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RMK-3-451"
+				(at 6.35 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "RF_Mini-Circuits:Mini-Circuits_TT1224_LandPatternPL-258_ClockwisePinNumbering"
+				(at -6.35 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.minicircuits.com/pdfs/RMK-3-451+.pdf"
+				(at -3.81 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3x Frequency Multiplier, output 300 to 450 MHz, 50 Ohm, Mini-Circuits TT1224"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "frequency multiplier"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Mini?Circuits*TT1224*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RMK-3-451_0_0"
+				(text "3x"
+					(at 0 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "RMK-3-451_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "RMK-3-451_1_1"
+				(pin input line
+					(at -10.16 0 0)
+					(length 3.81)
+					(name "F_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 90)
+					(length 3.81) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 3.81)
+					(name "3F_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 90)
+					(length 3.81) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 90)
+					(length 3.81) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Linear:TLV1117-ADJ"
 			(pin_names
 				(offset 0.762)
@@ -923,6 +1321,413 @@
 				)
 			)
 		)
+		(symbol "Transformer:ADTL2-18"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TR"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ADTL2-18"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "RF_Mini-Circuits:Mini-Circuits_CD542_H2.84mm"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.minicircuits.com/pdfs/ADTL2-18+.pdf"
+				(at -3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "30-1800MHz 1:2 RF Transformer, Balanced Transmission Line, CD542"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Mini-Circuits RF Transformer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Mini?Circuits*CD542*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADTL2-18_0_1"
+				(arc
+					(start -6.858 1.524)
+					(mid -6.096 0.7653)
+					(end -5.334 1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.334 -1.524)
+					(mid -6.096 -0.7653)
+					(end -6.858 -1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.334 1.524)
+					(mid -4.572 0.7653)
+					(end -3.81 1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.81 -1.524)
+					(mid -4.572 -0.7653)
+					(end -5.334 -1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.81 1.524)
+					(mid -3.048 0.7653)
+					(end -2.286 1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.286 -1.524)
+					(mid -3.048 -0.7653)
+					(end -3.81 -1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.286 1.524)
+					(mid -1.524 0.7653)
+					(end -0.762 1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.762 -1.524)
+					(mid -1.524 -0.7653)
+					(end -2.286 -1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.524) (xy 0.762 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 1.524) (xy 0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.858 -1.524) (xy -6.858 -2.54) (xy -7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.858 1.524) (xy -6.858 2.54) (xy -7.62 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.858 -1.524) (xy 6.858 -2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.858 1.524) (xy 6.858 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.762 1.524)
+					(mid 1.524 0.7653)
+					(end 2.286 1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.286 -1.524)
+					(mid 1.524 -0.7653)
+					(end 0.762 -1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.286 1.524)
+					(mid 3.048 0.7653)
+					(end 3.81 1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 -1.524)
+					(mid 3.048 -0.7653)
+					(end 2.286 -1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 1.524)
+					(mid 4.572 0.7653)
+					(end 5.334 1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.334 -1.524)
+					(mid 4.572 -0.7653)
+					(end 3.81 -1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.334 1.524)
+					(mid 6.096 0.7653)
+					(end 6.858 1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.858 -1.524)
+					(mid 6.096 -0.7653)
+					(end 5.334 -1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ADTL2-18_1_1"
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1039,6 +1844,12 @@
 		(uuid "0d49fc02-1d8c-49ec-aa03-1f6ecb84ecfa")
 	)
 	(junction
+		(at 173.99 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28f99129-325c-4b6f-9b53-3d1595efa358")
+	)
+	(junction
 		(at 82.55 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1049,6 +1860,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "357fc2af-220d-4747-9fe2-7384175ee90e")
+	)
+	(junction
+		(at 116.84 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36385aa1-54ed-41eb-aaf7-78467a599c8e")
+	)
+	(junction
+		(at 116.84 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3db4dbac-2076-4a2e-89dc-658151ba8729")
 	)
 	(junction
 		(at 91.44 36.83)
@@ -1069,6 +1892,12 @@
 		(uuid "6bc0bdf6-da1f-481a-9b8c-d74b7406cf01")
 	)
 	(junction
+		(at 181.61 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70568c48-ae8a-4bae-ae15-8d2446909349")
+	)
+	(junction
 		(at 74.93 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1081,6 +1910,12 @@
 		(uuid "79d93ae5-2b91-461c-ad8b-cd6dbb0f6b51")
 	)
 	(junction
+		(at 170.18 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a12db82-6eda-4aea-bfa0-8291d62ae71e")
+	)
+	(junction
 		(at 102.87 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1091,6 +1926,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b04c3fa-d42f-4cb6-aee4-3d73fb84ad93")
+	)
+	(junction
+		(at 173.99 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90ae986a-3fb6-4807-8bdf-14a9d930ed8d")
 	)
 	(junction
 		(at 46.99 36.83)
@@ -1186,6 +2027,26 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 129.54) (xy 181.61 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17bff80e-ce71-4196-b274-4e1b7ddcf804")
+	)
+	(wire
+		(pts
+			(xy 252.73 129.54) (xy 252.73 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18048251-1c82-4960-a2fd-55f169724576")
+	)
+	(wire
+		(pts
 			(xy 35.56 36.83) (xy 36.83 36.83)
 		)
 		(stroke
@@ -1203,6 +2064,16 @@
 			(type default)
 		)
 		(uuid "1df34ae3-b5ea-42ad-9983-ac8bb8c04e82")
+	)
+	(wire
+		(pts
+			(xy 181.61 129.54) (xy 196.85 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fee5488-eb1d-40ed-8de7-a4f903bcef55")
 	)
 	(wire
 		(pts
@@ -1286,6 +2157,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 127) (xy 116.84 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de84ddf-e976-4043-8b5f-c1d2e74541d6")
+	)
+	(wire
+		(pts
 			(xy 74.93 58.42) (xy 74.93 59.69)
 		)
 		(stroke
@@ -1296,7 +2177,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 129.54) (xy 110.49 132.08)
+			(xy 110.49 127) (xy 110.49 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1306,13 +2187,23 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 137.16) (xy 110.49 134.62)
+			(xy 110.49 139.7) (xy 110.49 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5bb042a4-a17d-4619-bdc6-e4c12a1877f4")
+	)
+	(wire
+		(pts
+			(xy 144.78 135.89) (xy 143.51 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce62cd8-3c7d-4200-b551-459e64510c61")
 	)
 	(wire
 		(pts
@@ -1346,6 +2237,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 106.68) (xy 163.83 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a66773-914c-4857-a48e-f97a790c91bb")
+	)
+	(wire
+		(pts
 			(xy 36.83 48.26) (xy 36.83 59.69)
 		)
 		(stroke
@@ -1376,6 +2277,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 90.17) (xy 219.71 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb2218a-c39b-4611-b72b-582ba44da918")
+	)
+	(wire
+		(pts
 			(xy 74.93 59.69) (xy 82.55 59.69)
 		)
 		(stroke
@@ -1383,6 +2294,16 @@
 			(type default)
 		)
 		(uuid "72b487b6-7110-44e5-954a-826e2b5c2d65")
+	)
+	(wire
+		(pts
+			(xy 116.84 127) (xy 143.51 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "737419e9-b039-4538-b645-b1082bc9807b")
 	)
 	(wire
 		(pts
@@ -1406,7 +2327,17 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 129.54) (xy 116.84 129.54)
+			(xy 173.99 137.16) (xy 181.61 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c360b2-2a09-4733-b2d7-ba01c95021f8")
+	)
+	(wire
+		(pts
+			(xy 110.49 127) (xy 116.84 127)
 		)
 		(stroke
 			(width 0)
@@ -1456,6 +2387,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 130.81) (xy 165.1 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b6148d-5881-4559-a5bc-0b58cc32948b")
+	)
+	(wire
+		(pts
 			(xy 48.26 68.58) (xy 109.22 68.58)
 		)
 		(stroke
@@ -1476,13 +2417,33 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 147.32) (xy 73.66 147.32)
+			(xy 116.84 139.7) (xy 116.84 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fcfa31d-46b3-4e18-9215-62eac80d2cbb")
+	)
+	(wire
+		(pts
+			(xy 58.42 135.89) (xy 73.66 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a01a2446-1de3-4286-8336-13342eaab7b6")
+	)
+	(wire
+		(pts
+			(xy 181.61 101.6) (xy 181.61 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d348e3-35b8-4326-b914-4aaa797ac67b")
 	)
 	(wire
 		(pts
@@ -1496,6 +2457,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 129.54) (xy 252.73 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d82d1c-63db-4eb3-a6cb-4cd8f5f704a6")
+	)
+	(wire
+		(pts
 			(xy 88.9 59.69) (xy 82.55 59.69)
 		)
 		(stroke
@@ -1503,6 +2474,26 @@
 			(type default)
 		)
 		(uuid "a75e334f-96f9-4611-9344-e09c93d3b132")
+	)
+	(wire
+		(pts
+			(xy 167.64 137.16) (xy 170.18 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8becf84-bae9-4c2f-bf4b-1d19fec79e5f")
+	)
+	(wire
+		(pts
+			(xy 167.64 135.89) (xy 165.1 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac47f43-f8b9-474e-b227-f3c55ca5a3f6")
 	)
 	(wire
 		(pts
@@ -1576,13 +2567,63 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 132.08) (xy 73.66 147.32)
+			(xy 73.66 132.08) (xy 73.66 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b685c82c-62f6-4e23-83ef-bc1163490d04")
+	)
+	(wire
+		(pts
+			(xy 143.51 127) (xy 143.51 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6b45903-5ecd-408d-9c80-32fc115b042f")
+	)
+	(wire
+		(pts
+			(xy 167.64 135.89) (xy 167.64 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be599494-a5f9-4a12-babd-88bf604e7719")
+	)
+	(wire
+		(pts
+			(xy 116.84 139.7) (xy 142.24 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be69e5b4-9240-4631-9ed2-38d832defd86")
+	)
+	(wire
+		(pts
+			(xy 142.24 130.81) (xy 142.24 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46f0733-ebb7-451d-ade3-2fee408d901b")
+	)
+	(wire
+		(pts
+			(xy 163.83 106.68) (xy 163.83 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d281a4-6e11-49f7-9efb-a563e55d2e81")
 	)
 	(wire
 		(pts
@@ -1636,6 +2677,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 137.16) (xy 173.99 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf1672cf-a15b-4ff1-9470-b7b940412a99")
+	)
+	(wire
+		(pts
 			(xy 102.87 36.83) (xy 102.87 39.37)
 		)
 		(stroke
@@ -1656,6 +2707,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 90.17) (xy 176.53 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d527abb1-c894-4443-8451-37b597b9cb0e")
+	)
+	(wire
+		(pts
 			(xy 53.34 114.3) (xy 55.88 114.3)
 		)
 		(stroke
@@ -1666,6 +2727,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 139.7) (xy 207.01 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db621ea5-0a3e-424e-8967-27a44f37799a")
+	)
+	(wire
+		(pts
 			(xy 46.99 48.26) (xy 46.99 59.69)
 		)
 		(stroke
@@ -1673,6 +2744,16 @@
 			(type default)
 		)
 		(uuid "de72a80e-b29c-4bc1-842d-8455f2d20670")
+	)
+	(wire
+		(pts
+			(xy 144.78 130.81) (xy 142.24 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfc1258a-8e4a-4947-84f5-b44aabaf9b07")
 	)
 	(wire
 		(pts
@@ -1706,6 +2787,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 129.54) (xy 173.99 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef16ff15-3a99-4395-ac3d-93312ce84e21")
+	)
+	(wire
+		(pts
 			(xy 128.27 48.26) (xy 128.27 59.69)
 		)
 		(stroke
@@ -1723,6 +2814,16 @@
 			(type default)
 		)
 		(uuid "f1fa2627-95b8-4a2c-950a-8690abf873c1")
+	)
+	(wire
+		(pts
+			(xy 167.64 130.81) (xy 167.64 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2c784fc-4f03-4b07-91de-781e21eef705")
 	)
 	(wire
 		(pts
@@ -1746,7 +2847,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 137.16) (xy 110.49 137.16)
+			(xy 116.84 139.7) (xy 110.49 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1763,6 +2864,56 @@
 			(type default)
 		)
 		(uuid "fedbfcda-f6bd-416c-8e94-f20135927502")
+	)
+	(text "filter & förstärkare"
+		(exclude_from_sim no)
+		(at 179.832 126.492 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "21d1ad5d-476e-4ae8-836c-4746c02eef18")
+	)
+	(text "AMK-3-452+ has input/output switched compared to AMK-2-13 footprint\n"
+		(exclude_from_sim no)
+		(at 205.486 150.368 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "39ab17ea-ec74-4b17-82ad-7020d9782bcd")
+	)
+	(text "-4dBm here?"
+		(exclude_from_sim no)
+		(at 117.348 123.698 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "56182907-cfc0-4e38-8188-e492866870ea")
+	)
+	(text "Requires 10-15 dBm input power"
+		(exclude_from_sim no)
+		(at 206.248 152.654 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5d8c6937-ab43-4405-b31d-4da46b728c41")
+	)
+	(text "Requires 7-13 dBm input power"
+		(exclude_from_sim no)
+		(at 187.96 74.422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "70d93674-afad-4c1d-9447-e68f4fe09ed2")
 	)
 	(text "V_ADJ = 3.3*R2/(R2+R3)=3.3*180/(110+180) = 2.05V"
 		(exclude_from_sim no)
@@ -1784,15 +2935,35 @@
 		)
 		(uuid "813ea450-c679-47b6-b61c-f9e10e8621ad")
 	)
-	(text "TODO: Gör egen schemasymbol för VCXO. Med 6 pinnar..."
+	(text "filter & förstärkare"
 		(exclude_from_sim no)
-		(at 93.98 111.506 0)
+		(at 208.534 87.122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "dfc75c24-eb28-4645-8917-c0d52b00be62")
+		(uuid "c34abcfa-e64d-4d52-b430-7c313b756b5a")
+	)
+	(text "filter & förstärkare"
+		(exclude_from_sim no)
+		(at 206.756 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de0a4a97-ac48-48bf-8faf-938508cdc95f")
+	)
+	(text "Always enabled. Internal pull up "
+		(exclude_from_sim no)
+		(at 84.836 155.702 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fb7af93d-60c7-469e-a856-7f5922232539")
 	)
 	(text "11mA through ADJ feedback resistors, min 1.7mA load"
 		(exclude_from_sim no)
@@ -1804,6 +2975,17 @@
 		)
 		(uuid "ff6ba288-0666-4eb3-b154-ec6ddb2e7f91")
 	)
+	(label "VCXO_1152MHz_P"
+		(at 110.49 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "062025ef-6a36-4a83-8e80-16c154083dde")
+	)
 	(label "P2V05_ADJ"
 		(at 76.2 48.26 0)
 		(fields_autoplaced yes)
@@ -1814,6 +2996,50 @@
 			(justify left bottom)
 		)
 		(uuid "172076f3-6fa6-4bba-94ff-84953fe3ebba")
+	)
+	(label "VCXO_3456MHz_SE"
+		(at 217.17 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a1fff89-9c16-4a83-b488-ad44ee77581b")
+	)
+	(label "VCXO_1152MHz_N"
+		(at 110.49 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3728c510-cc6a-4e1b-8589-ad54de42267c")
+	)
+	(label "VCXO_1152MHz_SE"
+		(at 171.45 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cbd5cfb-5a18-457f-90c4-7a31bd75392f")
+	)
+	(label "VCXO_10368MHz_SE"
+		(at 199.39 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d109a323-bc65-49c8-991f-d9face7977cd")
 	)
 	(global_label "P12V_INPUT"
 		(shape input)
@@ -1839,7 +3065,7 @@
 	)
 	(global_label "VCXO_CTRL"
 		(shape input)
-		(at 55.88 147.32 180)
+		(at 58.42 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1849,7 +3075,7 @@
 		)
 		(uuid "8a3fa130-740e-4693-a8a5-9c6964435dfa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.4929 147.32 0)
+			(at 45.0329 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1974,13 +3200,79 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 181.61 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "116b1b21-19e0-48aa-803f-2f83d6fdba70")
+		(property "Reference" "#PWR06"
+			(at 181.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 105.7331 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "802230ec-7157-4cf7-9bbc-68635c352a86")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 116.84 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "246c9ed8-f720-4e1a-9ab2-cc5af67767d4")
 		(property "Reference" "R1"
@@ -2254,6 +3546,95 @@
 		)
 	)
 	(symbol
+		(lib_id "RF:AMK-2-13")
+		(at 207.01 129.54 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bd5e666-ccb9-4075-88bb-0512ad364adb")
+		(property "Reference" "U3"
+			(at 207.01 119.0455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMK-3-452+"
+			(at 207.01 121.4698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RF_Mini-Circuits:Mini-Circuits_CD542_LandPatternPL-052"
+			(at 213.36 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/1030/AMK_3_452_2b-2936698.pdf"
+			(at 210.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2x Frequency Multiplier, output 20 to 1000 MHz, 50 Ohm, Mini-Circuits CD542"
+			(at 207.01 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Gain" "-15dB"
+			(at 206.502 117.094 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c42336c8-9ae5-4e11-81fc-3f279da302e3")
+		)
+		(pin "6"
+			(uuid "12a271d0-9d12-432c-92c7-f84f90d1fcf3")
+		)
+		(pin "3"
+			(uuid "c259fe48-62b8-4e52-98da-0eb6dc882cd9")
+		)
+		(pin "4"
+			(uuid "2cb7aa93-7933-4f03-9c97-4de50d8c1a31")
+		)
+		(pin "5"
+			(uuid "55da3e2e-1cf6-4d38-a281-5f3b7c958e92")
+		)
+		(pin "1"
+			(uuid "dc8a5ccc-f50f-4e7a-8842-075246c0c6b4")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 115.57 43.18 180)
 		(unit 1)
@@ -2324,6 +3705,94 @@
 		)
 	)
 	(symbol
+		(lib_id "RF:RMK-3-451")
+		(at 186.69 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7387f7f4-83ee-415f-8ae2-292d6ad96e7c")
+		(property "Reference" "U4"
+			(at 186.69 79.6755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RMK-3-1052+"
+			(at 186.69 82.0998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RF_Mini-Circuits:Mini-Circuits_TT1224_LandPatternPL-258_ClockwisePinNumbering"
+			(at 180.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/1030/RMK_3_1052_2b-3305585.pdf"
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3x Frequency Multiplier, output 300 to 450 MHz, 50 Ohm, Mini-Circuits TT1224"
+			(at 186.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Gain" "-18dB"
+			(at 186.69 77.47 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "2cdfb02f-1b10-491a-b8c6-759cd1824fed")
+		)
+		(pin "3"
+			(uuid "308d8376-7b99-4b36-aff8-3e5a2ad363af")
+		)
+		(pin "1"
+			(uuid "3bc33b90-8d59-4447-8eb6-9b0edc395d3c")
+		)
+		(pin "6"
+			(uuid "c9d6aabb-cb68-40f2-b2c3-fc6759f0ab30")
+		)
+		(pin "2"
+			(uuid "ac158a97-f028-4b08-95b9-3d095c247122")
+		)
+		(pin "5"
+			(uuid "a5fe491f-aec9-4115-a16e-bcd019584fcb")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 55.88 127 0)
 		(unit 1)
@@ -2384,6 +3853,138 @@
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ff42fa2-7f38-4af0-a54c-b29c5267e519")
+		(property "Reference" "#PWR05"
+			(at 207.01 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 145.1031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b3bc563-307e-4bb7-b6a6-ff77a217f920")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a318bdc8-d1e5-4e9c-8b2d-9d14b70e91e7")
+		(property "Reference" "#PWR04"
+			(at 170.18 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 141.2931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60973a0c-dcad-406b-9387-efac9b328e86")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2614,6 +4215,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 173.99 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0bbdcd0-3bfa-46fb-9b8a-36562ef82b9e")
+		(property "Reference" "R4"
+			(at 175.768 132.1378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 175.768 134.5621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 172.212 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7322537d-7908-4d49-998a-2645e8172fc2")
+		)
+		(pin "1"
+			(uuid "74929f4b-64f7-4cd2-8352-ffc03ccc400f")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 88.9 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2743,6 +4414,76 @@
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d206e31e-789f-4049-aaa6-e7b876cf7420")
+		(property "Reference" "R5"
+			(at 183.388 132.1378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 183.388 134.5621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 179.832 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "26f40284-0a84-469e-b7a5-7d108853fba2")
+		)
+		(pin "1"
+			(uuid "c7f8a754-78f4-4a03-97e0-b8a838e2875b")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3035,6 +4776,88 @@
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transformer:ADTL2-18")
+		(at 154.94 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0d969e8-36f7-471f-9360-01a44f241a4f")
+		(property "Reference" "TR1"
+			(at 154.94 126.7925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADTL2-18 2:1 "
+			(at 154.94 129.2168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RF_Mini-Circuits:Mini-Circuits_CD542_H2.84mm"
+			(at 154.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/ADTL2-18+.pdf"
+			(at 158.75 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "30-1800MHz 1:2 RF Transformer, Balanced Transmission Line, CD542"
+			(at 154.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Gain" "-1dB"
+			(at 154.686 124.46 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ba6a150b-e148-4afb-88f3-b41a04a78f40")
+		)
+		(pin "1"
+			(uuid "f79c655c-1233-43e5-92d5-0183bf02df72")
+		)
+		(pin "6"
+			(uuid "615a10e1-f538-4b50-a553-945a8e5d1e65")
+		)
+		(pin "4"
+			(uuid "7b2e3404-1e8a-4e5d-ab8c-83771ad115a9")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492"
+					(reference "TR1")
 					(unit 1)
 				)
 			)
