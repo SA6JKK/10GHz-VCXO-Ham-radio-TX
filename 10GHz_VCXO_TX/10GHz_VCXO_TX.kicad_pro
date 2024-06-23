@@ -576,6 +576,22 @@
     [
       "5c8d050a-3ec5-41af-bb0d-cc57adb5a492",
       "Root"
+    ],
+    [
+      "5e4c27e3-d1e8-44a1-bcef-3e984d5dd8ad",
+      "TX_VCXO"
+    ],
+    [
+      "65172ad7-09b9-4284-abd1-b4ce970d45cb",
+      "InputPower"
+    ],
+    [
+      "7faba6a2-b812-48e8-996b-17a09271428a",
+      "x3_IF_Multiplier"
+    ],
+    [
+      "ac40d95b-9a41-40d5-a8ea-6739ae2d174f",
+      "3x_RF_Multiplier"
     ]
   ],
   "text_variables": {}
