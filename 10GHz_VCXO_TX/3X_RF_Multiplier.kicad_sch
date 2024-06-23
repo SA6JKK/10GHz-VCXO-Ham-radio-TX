@@ -998,6 +998,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 36.83) (xy 57.15 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e805ff-b11c-448b-967c-dcfdeb2c5bb0")
+	)
+	(wire
+		(pts
 			(xy 144.78 69.85) (xy 149.86 69.85)
 		)
 		(stroke
@@ -1048,6 +1058,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 36.83) (xy 48.26 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf437bf6-6c8d-413e-8403-b4d802a78136")
+	)
+	(wire
+		(pts
 			(xy 88.9 62.23) (xy 102.87 62.23)
 		)
 		(stroke
@@ -1065,16 +1085,6 @@
 			(type default)
 		)
 		(uuid "e2df133c-782c-4536-8b47-1aae648a9786")
-	)
-	(wire
-		(pts
-			(xy 48.26 36.83) (xy 57.15 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e39d8838-547c-4d42-93e2-2043a1c4b6d8")
 	)
 	(wire
 		(pts
@@ -1128,6 +1138,17 @@
 		)
 		(uuid "6e29d3cb-319d-4225-b0a9-ec129be18bc3")
 	)
+	(label "P3V3_3456MHz"
+		(at 64.77 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "851c16dd-d0ed-4305-9080-478dc4d05355")
+	)
 	(label "3456MHz+11dBm"
 		(at 161.29 62.23 0)
 		(fields_autoplaced yes)
@@ -1152,7 +1173,7 @@
 	)
 	(global_label "P9V0"
 		(shape input)
-		(at 48.26 36.83 180)
+		(at 45.72 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1162,7 +1183,7 @@
 		)
 		(uuid "8a84f047-8d28-4f2b-8ea8-97d34fd90b31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.4972 36.83 0)
+			(at 37.9572 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,6 +1266,74 @@
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/ac40d95b-9a41-40d5-a8ea-6739ae2d174f"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.07 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e04e1d7-6eaf-4a4d-87c8-0279defb6d9d")
+		(property "Reference" "R16"
+			(at 52.07 31.6695 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 52.07 34.0938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 52.07 38.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8fc310d0-7fca-437a-9dc7-9d4909817bbd")
+		)
+		(pin "1"
+			(uuid "95e5efed-e89a-487c-b69b-c692ebf2d961")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/ac40d95b-9a41-40d5-a8ea-6739ae2d174f"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -1604,7 +1693,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1nF"
 			(at 106.68 58.3508 90)
 			(effects
 				(font
@@ -1612,7 +1701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 110.49 61.2648 0)
 			(effects
 				(font
@@ -2048,7 +2137,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:Mini-Circuits_FG873-4_3x3mm"
 			(at 63.5 58.42 0)
 			(effects
 				(font
