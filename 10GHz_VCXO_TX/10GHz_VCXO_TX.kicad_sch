@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 125.73 71.12) (xy 133.35 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68bc77c1-7d5d-4426-aebd-e3ed7590821d")
+	)
+	(wire
+		(pts
 			(xy 59.055 70.485) (xy 70.485 70.485)
 		)
 		(stroke
@@ -25,35 +35,53 @@
 		)
 		(uuid "ef916633-c151-4cec-b3af-a02652446b7b")
 	)
-	(text "AMK-3-452+ has input/output switched compared to AMK-2-13 footprint\n"
-		(exclude_from_sim no)
-		(at 205.486 150.368 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(sheet
+		(at 133.35 63.5)
+		(size 24.13 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3c27a7d0-de80-43c2-b2ba-d3b24837ca6e")
+		(property "Sheetname" "RF_PA"
+			(at 133.35 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
 			)
 		)
-		(uuid "39ab17ea-ec74-4b17-82ad-7020d9782bcd")
-	)
-	(text "Requires 10-15 dBm input power"
-		(exclude_from_sim no)
-		(at 206.248 152.654 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Sheetfile" "RF_PA.kicad_sch"
+			(at 133.35 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
-		(uuid "5d8c6937-ab43-4405-b31d-4da46b728c41")
-	)
-	(text "-5dBm"
-		(exclude_from_sim no)
-		(at 63.373 68.707 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(pin "10386MHz-7dBm" input
+			(at 133.35 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6bdbd5fc-5d03-4914-ba56-22174e3165e6")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492"
+					(page "6")
+				)
 			)
 		)
-		(uuid "69734b57-ad9f-4131-9843-81e7d86bad0c")
 	)
 	(sheet
 		(at 30.48 63.5)
@@ -201,7 +229,7 @@
 	)
 	(sheet
 		(at 101.6 63.5)
-		(size 23.495 27.94)
+		(size 24.13 27.94)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -238,6 +266,16 @@
 				(justify left)
 			)
 			(uuid "94abdf09-d209-4a48-9b07-f129f5f140b0")
+		)
+		(pin "10368MHz-7dBm" output
+			(at 125.73 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0faf694c-7b63-43b5-bade-c0a0f1f79a89")
 		)
 		(instances
 			(project "10GHz_VCXO_TX"
