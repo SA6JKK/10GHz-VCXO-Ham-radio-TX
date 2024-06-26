@@ -35,6 +35,16 @@
 		)
 		(uuid "ef916633-c151-4cec-b3af-a02652446b7b")
 	)
+	(text "todo HP filters"
+		(exclude_from_sim no)
+		(at 82.804 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4b508f29-e84a-4bc3-ac7d-728b9edf935f")
+	)
 	(sheet
 		(at 133.35 63.5)
 		(size 24.13 27.94)

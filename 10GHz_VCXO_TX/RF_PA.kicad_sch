@@ -172,6 +172,177 @@
 				)
 			)
 		)
+		(symbol "HankLibrary:HFCG_4400+"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HFCG_4400+_0_1"
+				(rectangle
+					(start -8.89 -1.27)
+					(end 8.89 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HFCG_4400+_1_1"
+				(pin input line
+					(at -11.43 -2.54 0)
+					(length 2.54)
+					(name "input"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -3.81 -13.97 90)
+					(length 2.54)
+					(name "gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 -2.54 180)
+					(length 2.54)
+					(name "output"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -1.27 -13.97 90)
+					(length 2.54)
+					(name "gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 1.27 -13.97 90)
+					(length 2.54)
+					(name "gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 3.81 -13.97 90)
+					(length 2.54)
+					(name "gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -269,6 +440,64 @@
 			)
 		)
 	)
+	(junction
+		(at 63.5 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29187b08-46fe-4a40-bcd8-3c6b5c891d79")
+	)
+	(junction
+		(at 60.96 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae4d0f89-fae7-4e91-ad88-deca5872875b")
+	)
+	(junction
+		(at 62.23 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eeeae9f4-449c-423c-8fad-0e7796073bfc")
+	)
+	(wire
+		(pts
+			(xy 60.96 76.2) (xy 62.23 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20920640-3caa-4ec1-8723-5cbee28d0ccc")
+	)
+	(wire
+		(pts
+			(xy 63.5 76.2) (xy 63.5 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216e60f6-97ff-424a-9273-d1ad460ccda8")
+	)
+	(wire
+		(pts
+			(xy 60.96 76.2) (xy 60.96 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89672e4d-1fe9-4bf6-9b4d-730141fbeb10")
+	)
+	(wire
+		(pts
+			(xy 66.04 76.2) (xy 66.04 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b860f08-d338-449d-b5dd-0b8c853f1b11")
+	)
 	(wire
 		(pts
 			(xy 132.08 69.85) (xy 132.08 68.58)
@@ -281,13 +510,83 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 63.5) (xy 127 63.5)
+			(xy 38.1 63.5) (xy 50.8 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "997c366c-515e-45c9-a47a-5adbd4628908")
+	)
+	(wire
+		(pts
+			(xy 58.42 76.2) (xy 58.42 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d6d9cbf-0d17-4e6a-adda-9492765ff273")
+	)
+	(wire
+		(pts
+			(xy 62.23 76.2) (xy 63.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c6741f-690b-4d3a-a03e-f708b3e27e31")
+	)
+	(wire
+		(pts
+			(xy 58.42 76.2) (xy 60.96 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce782328-cb4d-408d-b2f3-ff38a12c9a93")
+	)
+	(wire
+		(pts
+			(xy 73.66 63.5) (xy 127 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31a57e5-85d2-42f3-b12f-7a75614fcaf4")
+	)
+	(wire
+		(pts
+			(xy 63.5 76.2) (xy 66.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c20a18-4cb9-40f2-826a-e9bbcc69194f")
+	)
+	(text "PMA2-123LN5+"
+		(exclude_from_sim no)
+		(at 61.722 51.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6ef8ace3-378f-4e03-a0ab-8cd86283e9e0")
+	)
+	(text "HMC952A"
+		(exclude_from_sim no)
+		(at 110.744 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8595d4b5-8b93-4713-89b7-3bd6cb7e856f")
 	)
 	(hierarchical_label "10386MHz-7dBm"
 		(shape input)
@@ -300,6 +599,152 @@
 			(justify right)
 		)
 		(uuid "4d720a64-6f5e-46fa-9b48-e0238d2f34f0")
+	)
+	(symbol
+		(lib_id "HankLibrary:HFCG_4400+")
+		(at 62.23 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f9d26b7-69ce-40c9-8108-9fb3e1e0e858")
+		(property "Reference" "U9"
+			(at 62.23 59.6985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HFCG-4400+"
+			(at 62.23 61.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OptoDevice:Broadcom_DFN-6_2x2mm_P0.65mm"
+			(at 62.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/1030/HFCG_4400_2b-2256271.pdf"
+			(at 62.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4900 to 18500 MHz High Pass Filter "
+			(at 62.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a3da344f-c066-4f79-bb2c-5796ad3ed2cc")
+		)
+		(pin "2"
+			(uuid "12659fe7-f22e-4547-8baf-5ba42e2385a6")
+		)
+		(pin "5"
+			(uuid "dd43de66-f8d6-4adf-ae3c-0cfd30ec2b7e")
+		)
+		(pin "1"
+			(uuid "b080e2f6-654c-4ee6-807c-33d5b1c91c85")
+		)
+		(pin "6"
+			(uuid "feb874ea-81d6-49f0-ac80-670d4cf2c077")
+		)
+		(pin "3"
+			(uuid "9453e1d4-0ab3-44e7-b5ad-5e67dc9160fd")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/3c27a7d0-de80-43c2-b2ba-d3b24837ca6e"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "801b7613-85ac-4c58-9a6c-1f08c506c0e9")
+		(property "Reference" "#PWR017"
+			(at 62.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 80.3331 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c3366d2-da63-4aec-b15e-53a4ef223cdb")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/3c27a7d0-de80-43c2-b2ba-d3b24837ca6e"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
