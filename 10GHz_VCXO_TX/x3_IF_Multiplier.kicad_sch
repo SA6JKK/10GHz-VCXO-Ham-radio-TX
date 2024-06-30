@@ -918,7 +918,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 67.31) (xy 209.55 67.31)
+			(xy 242.57 67.31) (xy 238.76 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1098,6 +1098,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 67.31) (xy 231.14 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f83d65dd-f895-458d-8a3d-d6e14dd9d275")
+	)
+	(wire
+		(pts
 			(xy 133.35 74.93) (xy 137.16 74.93)
 		)
 		(stroke
@@ -1105,16 +1115,6 @@
 			(type default)
 		)
 		(uuid "fbec19db-f7b3-4f4b-8bf3-5f4015e56e25")
-	)
-	(text "filter & förstärkare"
-		(exclude_from_sim no)
-		(at 105.156 58.166 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "16a14b8d-2a0f-46ab-a6c8-fad64597e4df")
 	)
 	(text "AMK-3-452+ has input/output switched compared to AMK-2-13 footprint\n"
 		(exclude_from_sim no)
@@ -1125,6 +1125,16 @@
 			)
 		)
 		(uuid "34a81aaf-460c-4fea-8789-1b8b20cb1ace")
+	)
+	(text "9V 65mA = 585mW"
+		(exclude_from_sim no)
+		(at 126.492 21.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "59ab3027-11d7-4918-a665-213dbab4ced5")
 	)
 	(text "1.7dB attenuator"
 		(exclude_from_sim no)
@@ -1212,7 +1222,7 @@
 		(uuid "e9d2bdbd-0e50-4249-9bc3-d985fb1c9137")
 	)
 	(label "3456MHz-2dBm"
-		(at 209.55 67.31 0)
+		(at 213.36 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1256,9 +1266,9 @@
 		)
 		(uuid "069ed39e-8c33-43b0-bba6-a5a0cdbf253d")
 	)
-	(hierarchical_label "3456MHz-2dBm"
+	(hierarchical_label "3456MHz-2dBm_OUT"
 		(shape output)
-		(at 231.14 67.31 0)
+		(at 242.57 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1469,6 +1479,74 @@
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 234.95 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "208752fa-f1d5-4f74-89a1-7d980e48647c")
+		(property "Reference" "C25"
+			(at 234.95 61.0065 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1nF"
+			(at 234.95 63.4308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 238.76 66.3448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 234.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "67eca418-17c4-4dce-b723-868dfaa1f70a")
+		)
+		(pin "1"
+			(uuid "2852f33e-e5a1-40e1-88fc-c4ad66121826")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
+					(reference "C25")
 					(unit 1)
 				)
 			)

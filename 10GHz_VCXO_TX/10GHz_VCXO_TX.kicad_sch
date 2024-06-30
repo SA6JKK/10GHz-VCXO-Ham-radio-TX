@@ -35,16 +35,6 @@
 		)
 		(uuid "ef916633-c151-4cec-b3af-a02652446b7b")
 	)
-	(text "todo HP filters"
-		(exclude_from_sim no)
-		(at 82.804 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4b508f29-e84a-4bc3-ac7d-728b9edf935f")
-	)
 	(sheet
 		(at 133.35 63.5)
 		(size 24.13 27.94)
@@ -75,7 +65,7 @@
 				(justify left top)
 			)
 		)
-		(pin "10386MHz-7dBm" input
+		(pin "10386MHz-8dBm_IN" input
 			(at 133.35 71.12 180)
 			(effects
 				(font
@@ -83,7 +73,7 @@
 				)
 				(justify left)
 			)
-			(uuid "6bdbd5fc-5d03-4914-ba56-22174e3165e6")
+			(uuid "25af54cc-ffad-4d9c-8bd5-04b9d4376dcd")
 		)
 		(instances
 			(project "10GHz_VCXO_TX"
@@ -219,7 +209,7 @@
 			)
 			(uuid "a8c050da-bfef-4316-9523-86facedfa53d")
 		)
-		(pin "3456MHz-2dBm" output
+		(pin "3456MHz-2dBm_OUT" output
 			(at 92.71 78.74 0)
 			(effects
 				(font
@@ -227,7 +217,7 @@
 				)
 				(justify right)
 			)
-			(uuid "e97d3e01-784e-4a0f-8046-c8fa7e20a4af")
+			(uuid "6060c711-ddde-47bb-81fe-b244b433cc83")
 		)
 		(instances
 			(project "10GHz_VCXO_TX"
@@ -267,7 +257,7 @@
 				(justify left top)
 			)
 		)
-		(pin "3456MHz-2dBm" input
+		(pin "3456MHz-2dBm_IN" input
 			(at 101.6 78.74 180)
 			(effects
 				(font
@@ -275,9 +265,9 @@
 				)
 				(justify left)
 			)
-			(uuid "94abdf09-d209-4a48-9b07-f129f5f140b0")
+			(uuid "14617e73-a959-4c4a-bcb3-c33ec355b7bd")
 		)
-		(pin "10368MHz-7dBm" output
+		(pin "10368MHz-8dBm_OUT" output
 			(at 125.73 71.12 0)
 			(effects
 				(font
@@ -285,7 +275,7 @@
 				)
 				(justify right)
 			)
-			(uuid "0faf694c-7b63-43b5-bade-c0a0f1f79a89")
+			(uuid "d0d55c59-5376-441d-a195-c62eaca77e77")
 		)
 		(instances
 			(project "10GHz_VCXO_TX"

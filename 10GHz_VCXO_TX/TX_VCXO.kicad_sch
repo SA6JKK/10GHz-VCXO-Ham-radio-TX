@@ -1519,6 +1519,16 @@
 		)
 		(uuid "1a48158e-e22b-4ed0-a5c4-1c25aa4ebefc")
 	)
+	(text "3.3V 28mA = 92mW"
+		(exclude_from_sim no)
+		(at 87.63 37.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "60b3114b-377a-40c4-b19c-6b0a316b3175")
+	)
 	(label "VCXO_1152MHz_N"
 		(at 107.95 73.66 0)
 		(fields_autoplaced yes)

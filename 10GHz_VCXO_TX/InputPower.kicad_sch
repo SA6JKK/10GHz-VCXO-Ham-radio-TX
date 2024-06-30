@@ -1573,6 +1573,16 @@
 		)
 		(uuid "5a5fb743-11af-4ab6-ac68-55478fbc1310")
 	)
+	(polyline
+		(pts
+			(xy 201.295 30.48) (xy 201.295 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a933c69-ac5e-462e-9ea4-76bfb5e030e3")
+	)
 	(wire
 		(pts
 			(xy 67.31 38.1) (xy 67.31 34.29)
@@ -1873,6 +1883,16 @@
 		)
 		(uuid "98afa9f5-cee2-41e9-83eb-3508db974e22")
 	)
+	(polyline
+		(pts
+			(xy 201.93 30.48) (xy 250.825 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99966c16-c79e-4b37-a855-376f094056c9")
+	)
 	(wire
 		(pts
 			(xy 71.12 34.29) (xy 77.47 34.29)
@@ -2033,6 +2053,16 @@
 		)
 		(uuid "c31ba9a0-ea2d-4906-b481-2a352259f409")
 	)
+	(polyline
+		(pts
+			(xy 201.295 61.595) (xy 250.825 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3277e49-5e9a-448d-ae91-36690a7bbbb1")
+	)
 	(wire
 		(pts
 			(xy 99.06 132.08) (xy 92.71 132.08)
@@ -2142,6 +2172,16 @@
 			(type default)
 		)
 		(uuid "e17856fd-8ebe-4698-9b1c-c6bdfadb0ded")
+	)
+	(polyline
+		(pts
+			(xy 250.825 61.595) (xy 250.825 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18957f7-8cd4-492e-8552-d9105609934a")
 	)
 	(wire
 		(pts
@@ -2272,6 +2312,17 @@
 			)
 		)
 		(uuid "7673bea5-d5d2-476d-b02a-249be9d98050")
+	)
+	(text "VCXO     - 3.3V 28mA = 92mW\nLEE-59+  - 9V 65mA = 585mW\nLEE-59+  - 9V 65mA = 585mW"
+		(exclude_from_sim no)
+		(at 202.946 34.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b505f9e-06ca-4c71-9d56-d82b03e5e5f5")
 	)
 	(text "11mA through ADJ feedback resistors, min 1.7mA load"
 		(exclude_from_sim no)
