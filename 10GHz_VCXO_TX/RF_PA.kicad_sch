@@ -757,6 +757,501 @@
 				)
 			)
 		)
+		(symbol "HankLibrary:HMC952A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HMC952A_0_1"
+				(rectangle
+					(start -16.51 -1.27)
+					(end 16.51 -35.56)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HMC952A_1_1"
+				(pin input line
+					(at -15.24 -38.1 90)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -38.1 90)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -19.05 -20.32 0)
+					(length 2.54)
+					(name "Vdd4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 -19.05 180)
+					(length 2.54)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 -16.51 180)
+					(length 2.54)
+					(name "VDET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -38.1 90)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -38.1 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 -5.08 180)
+					(length 2.54)
+					(name "RF-out"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -38.1 90)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -38.1 90)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -38.1 90)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -38.1 90)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -19.05 -22.86 0)
+					(length 2.54)
+					(name "Vdd3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -19.05 -25.4 0)
+					(length 2.54)
+					(name "Vdd2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -19.05 -27.94 0)
+					(length 2.54)
+					(name "Vdd1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -38.1 90)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -38.1 90)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -38.1 90)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 -5.08 0)
+					(length 2.54)
+					(name "RF-in"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -38.1 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -19.05 -11.43 0)
+					(length 2.54)
+					(name "Vgg1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -19.05 -13.97 0)
+					(length 2.54)
+					(name "Vgg8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -19.05 -16.51 0)
+					(length 2.54)
+					(name "Vgg3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -38.1 90)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "HankLibrary:PMA2-123LN5+"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1199,7 +1694,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 63.5) (xy 220.98 63.5)
+			(xy 143.51 63.5) (xy 160.02 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1296,6 +1791,16 @@
 			(type default)
 		)
 		(uuid "948a646b-eee7-4ccb-9818-f8fb836d57a1")
+	)
+	(wire
+		(pts
+			(xy 198.12 63.5) (xy 220.98 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e500d7-be30-4ff8-ab67-a4dae709e27e")
 	)
 	(wire
 		(pts
@@ -1406,6 +1911,16 @@
 			(type default)
 		)
 		(uuid "f8c20a18-4cb9-40f2-826a-e9bbcc69194f")
+	)
+	(text "5V1400mA"
+		(exclude_from_sim no)
+		(at 207.518 116.332 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "24db7126-f1e1-4a7b-bf7e-a60a56d0b9d4")
 	)
 	(text "5V30mA"
 		(exclude_from_sim no)
@@ -2019,6 +2534,140 @@
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/3c27a7d0-de80-43c2-b2ba-d3b24837ca6e"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HankLibrary:HMC952A")
+		(at 179.07 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3fa0ed7-811f-4421-ac77-13742c34ae97")
+		(property "Reference" "U11"
+			(at 179.07 57.1585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HMC952A"
+			(at 179.07 58.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_5x5mm_P0.65mm_EP3.2x3.2mm"
+			(at 179.07 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/609/HMC952A-972562.pdf"
+			(at 179.07 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GaAs pHEMT MMIC 2 Watt 8 - 14 GHz"
+			(at 179.07 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ea5d1cd3-d044-4364-af08-a201ccd33a51")
+		)
+		(pin "8"
+			(uuid "7541ab11-b737-4dea-9c3b-1570637badd3")
+		)
+		(pin "11"
+			(uuid "64e12e96-aa05-4c15-8bf1-918e708d9e87")
+		)
+		(pin "21"
+			(uuid "d9c4aa14-467c-4460-b240-fafa752aa6e0")
+		)
+		(pin "15"
+			(uuid "8ee1561d-ee31-4bac-9959-ae224449c95b")
+		)
+		(pin "10"
+			(uuid "bbca9c23-fdf0-4cf8-946c-e36778d65555")
+		)
+		(pin "22"
+			(uuid "fb6f508f-03d3-4e58-adb0-9085c764c488")
+		)
+		(pin "16"
+			(uuid "58ad5e9c-96e0-482f-9c4f-4c9f72a87093")
+		)
+		(pin "4"
+			(uuid "bd8f93e1-c4b0-4bc6-879e-3fb88a212515")
+		)
+		(pin "18"
+			(uuid "c8a9925b-c50b-4fa6-bdb5-86dd25f859cf")
+		)
+		(pin "7"
+			(uuid "3802a8ac-6c39-481d-bace-47fc0feb5834")
+		)
+		(pin "13"
+			(uuid "76102585-ee94-414a-a574-f38debcf3f30")
+		)
+		(pin "12"
+			(uuid "f8111a21-c64c-48e6-99aa-dc6354327585")
+		)
+		(pin "14"
+			(uuid "a40df6bd-df5a-44b0-a06f-6a9052e78f8d")
+		)
+		(pin "1"
+			(uuid "f30c8902-e5bb-4dec-9c06-212b07a85aa2")
+		)
+		(pin "24"
+			(uuid "d7618e94-175e-4aa4-a529-a207a7010d8c")
+		)
+		(pin "6"
+			(uuid "5a137427-3d40-4522-8f59-d60a0dfacfcb")
+		)
+		(pin "9"
+			(uuid "7d2a9432-50fc-4956-ac05-4bbf6e76f6b0")
+		)
+		(pin "17"
+			(uuid "20b8f9bb-c82c-4e76-958a-2267d1c023a6")
+		)
+		(pin "19"
+			(uuid "1e64a118-e3a6-4dab-a290-05b4891a79a1")
+		)
+		(pin "20"
+			(uuid "c9574b5f-5568-495a-93e9-aafae66e509b")
+		)
+		(pin "23"
+			(uuid "c24444ef-711d-4994-911a-9ab3443b05d0")
+		)
+		(pin "3"
+			(uuid "38668920-5f9e-4ad7-990e-922fa2bba4dd")
+		)
+		(pin "2"
+			(uuid "89bbb0c8-3177-4a82-ae9c-1fc1525e2d30")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/3c27a7d0-de80-43c2-b2ba-d3b24837ca6e"
+					(reference "U11")
 					(unit 1)
 				)
 			)
