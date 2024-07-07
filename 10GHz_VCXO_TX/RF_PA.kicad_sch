@@ -1952,6 +1952,28 @@
 		)
 		(uuid "8595d4b5-8b93-4713-89b7-3bd6cb7e856f")
 	)
+	(global_label "P5V0"
+		(shape input)
+		(at 38.1 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f03d77da-1944-499e-9e17-1f4a40256af6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.8628 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "10386MHz-8dBm_IN"
 		(shape input)
 		(at 38.1 63.5 180)
