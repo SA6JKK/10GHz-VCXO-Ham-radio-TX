@@ -2721,7 +2721,7 @@
 	)
 	(polyline
 		(pts
-			(xy 201.295 30.48) (xy 201.295 45.085)
+			(xy 201.295 30.48) (xy 201.295 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3411,7 +3411,7 @@
 	)
 	(polyline
 		(pts
-			(xy 201.295 45.085) (xy 250.825 45.085)
+			(xy 201.295 48.26) (xy 250.825 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3601,7 +3601,7 @@
 	)
 	(polyline
 		(pts
-			(xy 250.825 45.085) (xy 250.825 30.48)
+			(xy 250.825 48.26) (xy 250.825 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3889,9 +3889,9 @@
 		)
 		(uuid "7673bea5-d5d2-476d-b02a-249be9d98050")
 	)
-	(text "VCXO     - 3.3V 28mA = 92mW\nLEE-59+  - 9V 65mA = 585mW\nLEE-59+  - 9V 65mA = 585mW\nPMA2-123LN5+ - 5.0V 30mA = 150 mW\nHMC952A - 5.0V 1400mA = 7.0W\nSUM: 8.4W"
+	(text "VCXO     - 3.3V 28mA = 92mW\nLEE-59+  - 9V 65mA = 585mW\nLEE-59+  - 9V 65mA = 585mW\nPMA2-123LN5+ - 5.0V 30mA = 150 mW\nHMC952A - 5.0V 1400mA = 7.0W\nSUM: 8.4W useful energy\nTotal 12V current: 1588mA - 19W"
 		(exclude_from_sim no)
-		(at 202.438 37.338 0)
+		(at 202.184 39.624 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3899,6 +3899,16 @@
 			(justify left)
 		)
 		(uuid "7b505f9e-06ca-4c71-9d56-d82b03e5e5f5")
+	)
+	(text "TODO: Switching 5V regulator next revision"
+		(exclude_from_sim no)
+		(at 217.932 79.502 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "842bf477-b957-482c-aabd-e4bcbdb20fc9")
 	)
 	(text "INPUT POLARITY PROTECTION"
 		(exclude_from_sim no)
