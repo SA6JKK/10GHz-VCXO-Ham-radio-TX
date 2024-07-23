@@ -1024,6 +1024,18 @@
 		(uuid "12025836-cbb8-4b06-b860-356a143e9240")
 	)
 	(junction
+		(at 120.65 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b12d5d9-ec7d-4b29-bcfd-6ab4e7f47832")
+	)
+	(junction
+		(at 134.62 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3de72d8c-d000-4d2d-ace5-ec21e2dec923")
+	)
+	(junction
 		(at 72.39 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1121,7 +1133,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 41.91) (xy 152.4 41.91)
+			(xy 120.65 41.91) (xy 134.62 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1201,6 +1213,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 44.45) (xy 134.62 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78bc65db-da9c-42dd-8521-1938900b9dc8")
+	)
+	(wire
+		(pts
 			(xy 115.57 67.31) (xy 124.46 67.31)
 		)
 		(stroke
@@ -1218,6 +1240,16 @@
 			(type default)
 		)
 		(uuid "7c1032d9-6ef6-496a-adf7-fa9e3d0f667a")
+	)
+	(wire
+		(pts
+			(xy 120.65 53.34) (xy 134.62 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fee1dfc-3ff7-4dfb-9c35-07635b0b91e5")
 	)
 	(wire
 		(pts
@@ -1291,6 +1323,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 52.07) (xy 134.62 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc3d960d-95f0-41cd-af6d-96d76df2a87d")
+	)
+	(wire
+		(pts
 			(xy 60.96 67.31) (xy 67.31 67.31)
 		)
 		(stroke
@@ -1298,6 +1340,16 @@
 			(type default)
 		)
 		(uuid "ee22064a-5340-42d5-adf3-723f344a32e1")
+	)
+	(wire
+		(pts
+			(xy 134.62 41.91) (xy 152.4 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f06d0fad-95f7-49e1-9943-ce8c72aac9cd")
 	)
 	(wire
 		(pts
@@ -1522,7 +1574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05e409ea-68b8-441a-ada2-cfd3739a1aed")
-		(property "Reference" "U6"
+		(property "Reference" "U5"
 			(at 133.985 59.6985 0)
 			(effects
 				(font
@@ -1580,7 +1632,7 @@
 		(instances
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -1596,7 +1648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c799151-8c9d-4c58-b626-a8bf863e249a")
-		(property "Reference" "R19"
+		(property "Reference" "R14"
 			(at 94.488 74.9878 0)
 			(effects
 				(font
@@ -1650,7 +1702,7 @@
 		(instances
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
-					(reference "R19")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -1666,7 +1718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c469e20-9eeb-4575-9dc6-14affb2822f1")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 133.35 81.28 0)
 			(effects
 				(font
@@ -1716,7 +1768,7 @@
 		(instances
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -1732,7 +1784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f93c5a7-8ff4-4486-8d01-6b5c5f6aba6b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR09"
 			(at 72.39 81.28 0)
 			(effects
 				(font
@@ -1782,7 +1834,7 @@
 		(instances
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
-					(reference "#PWR04")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -1798,7 +1850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "208752fa-f1d5-4f74-89a1-7d980e48647c")
-		(property "Reference" "C25"
+		(property "Reference" "C27"
 			(at 234.95 61.0065 90)
 			(effects
 				(font
@@ -1850,7 +1902,7 @@
 		(instances
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
-					(reference "C25")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -1866,7 +1918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a36a457-aa1b-47d6-a06c-fd983a40c5b7")
-		(property "Reference" "R6"
+		(property "Reference" "R13"
 			(at 84.328 69.9078 0)
 			(effects
 				(font
@@ -1920,7 +1972,7 @@
 		(instances
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
-					(reference "R6")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -1936,7 +1988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ef67b3c-8a36-498b-9536-4db4fa0b1604")
-		(property "Reference" "C20"
+		(property "Reference" "C23"
 			(at 111.76 61.0065 90)
 			(effects
 				(font
@@ -1988,7 +2040,7 @@
 		(instances
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
-					(reference "C20")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -2005,7 +2057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d1ee803-4ad4-4c54-af70-e732cbacc875")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR08"
 			(at 64.77 106.68 0)
 			(effects
 				(font
@@ -2055,7 +2107,7 @@
 		(instances
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
-					(reference "#PWR019")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2071,7 +2123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "600da40f-fa56-4114-a43c-463e31840d06")
-		(property "Reference" "C17"
+		(property "Reference" "C26"
 			(at 170.18 61.0065 90)
 			(effects
 				(font
@@ -2123,7 +2175,7 @@
 		(instances
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
-					(reference "C17")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -2192,6 +2244,76 @@
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 134.62 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bb2e682-afe1-4ca8-957c-9f252c37b751")
+		(property "Reference" "C25"
+			(at 137.541 47.0478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1nF"
+			(at 137.541 49.4721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 133.6548 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 134.62 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2404b362-f247-4d2b-bcd9-c0c9197ccedb")
+		)
+		(pin "1"
+			(uuid "c5e69dce-86e6-4b31-b97b-3ae09f03f468")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -2277,7 +2399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a742393c-8921-441c-b4c6-7477bd871344")
-		(property "Reference" "C16"
+		(property "Reference" "C24"
 			(at 123.571 47.0478 0)
 			(effects
 				(font
@@ -2331,7 +2453,7 @@
 		(instances
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
-					(reference "C16")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -2347,7 +2469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba09b09f-3137-4960-a65b-275d420fd5d5")
-		(property "Reference" "U3"
+		(property "Reference" "U6"
 			(at 199.39 56.8155 0)
 			(effects
 				(font
@@ -2420,7 +2542,7 @@
 		(instances
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
-					(reference "U3")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -2436,7 +2558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb7778a7-c27d-4f8c-9be1-41a6ee97ac78")
-		(property "Reference" "R9"
+		(property "Reference" "R16"
 			(at 154.178 45.7778 0)
 			(effects
 				(font
@@ -2490,7 +2612,7 @@
 		(instances
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
-					(reference "R9")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -2506,7 +2628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d238dc01-2332-4866-81f4-6b4111c81edd")
-		(property "Reference" "R5"
+		(property "Reference" "R12"
 			(at 76.2 62.1495 90)
 			(effects
 				(font
@@ -2558,7 +2680,7 @@
 		(instances
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
-					(reference "R5")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2575,7 +2697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc6a523c-a649-449d-a534-3a5e6e3462cb")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 62.2299 93.061 0)
 			(effects
 				(font
@@ -2629,7 +2751,7 @@
 		(instances
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2645,7 +2767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de62050e-8d1f-4b1a-8c83-3390639b2357")
-		(property "Reference" "R4"
+		(property "Reference" "R11"
 			(at 69.088 69.9078 0)
 			(effects
 				(font
@@ -2699,7 +2821,7 @@
 		(instances
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
-					(reference "R4")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2781,7 +2903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f88cb8fe-1bd5-4634-9a99-755c59d0e0c1")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR012"
 			(at 199.39 85.09 0)
 			(effects
 				(font
@@ -2831,7 +2953,7 @@
 		(instances
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
-					(reference "#PWR05")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
