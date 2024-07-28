@@ -2280,7 +2280,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 149.86 64.77 90)
+		(at 149.86 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2305,7 +2305,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 153.67 63.8048 0)
+			(at 146.05 65.7352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +2646,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 100.33 45.72 0)
+		(at 100.33 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2660,7 +2660,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100nF"
@@ -2669,11 +2669,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 101.2952 49.53 0)
+			(at 99.3648 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)

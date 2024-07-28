@@ -1327,16 +1327,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 63.5) (xy 50.8 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80eed8cf-ec82-47dd-aad6-99e919341554")
-	)
-	(wire
-		(pts
 			(xy 124.46 114.3) (xy 124.46 116.84)
 		)
 		(stroke
@@ -1407,7 +1397,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 63.5) (xy 41.91 63.5)
+			(xy 38.1 63.5) (xy 50.8 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1895,7 +1885,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 153.67 68.58 0)
+		(at 153.67 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1904,7 +1894,7 @@
 		(fields_autoplaced yes)
 		(uuid "4407a3eb-4b07-4d89-9b54-0a9449998bed")
 		(property "Reference" "R24"
-			(at 155.448 67.3678 0)
+			(at 155.448 77.5278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1913,7 +1903,7 @@
 			)
 		)
 		(property "Value" "68"
-			(at 155.448 69.7921 0)
+			(at 155.448 79.9521 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1922,7 +1912,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 151.892 68.58 90)
+			(at 151.892 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,7 +1921,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 68.58 0)
+			(at 153.67 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1940,7 +1930,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 153.67 68.58 0)
+			(at 153.67 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2035,7 +2025,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 153.67 78.74 0)
+		(at 153.67 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2044,7 +2034,7 @@
 		(fields_autoplaced yes)
 		(uuid "722d4349-4ec3-4a31-9aff-533a30214ae9")
 		(property "Reference" "L3"
-			(at 154.9372 77.5278 0)
+			(at 154.9372 67.3678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2053,7 +2043,7 @@
 			)
 		)
 		(property "Value" "L"
-			(at 154.9372 79.9521 0)
+			(at 154.9372 69.7921 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +2052,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 153.67 78.74 0)
+			(at 153.67 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,7 +2061,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 78.74 0)
+			(at 153.67 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,7 +2070,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 153.67 78.74 0)
+			(at 153.67 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2529,74 +2519,6 @@
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/3c27a7d0-de80-43c2-b2ba-d3b24837ca6e"
 					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 45.72 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1851945-ac5c-4ebf-b46f-d46877ef2ce4")
-		(property "Reference" "C33"
-			(at 45.72 57.1965 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1nF"
-			(at 45.72 59.6208 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 49.53 62.5348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 45.72 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3d21b663-c511-4f0a-bbd0-4c37ae20d0e7")
-		)
-		(pin "1"
-			(uuid "caf04e08-6acd-430e-b23d-69ea170f2c3d")
-		)
-		(instances
-			(project "10GHz_VCXO_TX"
-				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/3c27a7d0-de80-43c2-b2ba-d3b24837ca6e"
-					(reference "C33")
 					(unit 1)
 				)
 			)

@@ -486,6 +486,169 @@
 				)
 			)
 		)
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:D_Zener_Filled"
 			(pin_numbers hide)
 			(pin_names
@@ -905,168 +1068,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Diode:1N4002"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4002"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "100V 1A General Purpose Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4002_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4002_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1795,6 +1796,12 @@
 		(uuid "7b86fc8a-0ac4-4af5-bd79-798ac5fe8fd1")
 	)
 	(junction
+		(at 83.82 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dd9e84e-fcad-4d59-82c9-7b89f149311e")
+	)
+	(junction
 		(at 68.58 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2003,6 +2010,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f801fb6e-31ee-4528-af39-f14356c817ef")
+	)
+	(junction
+		(at 72.39 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8f9ef95-6430-4ac4-a9c4-c527a4fc2b5f")
 	)
 	(wire
 		(pts
@@ -2276,6 +2289,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 118.11) (xy 83.82 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2068b8fc-24d8-46b9-b542-59278c84d565")
+	)
+	(wire
+		(pts
 			(xy 69.85 157.48) (xy 69.85 153.67)
 		)
 		(stroke
@@ -2436,6 +2459,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 100.33) (xy 72.39 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7eaaca-ccac-41ae-857f-d80c4300c308")
+	)
+	(wire
+		(pts
 			(xy 115.57 41.91) (xy 115.57 45.72)
 		)
 		(stroke
@@ -2516,6 +2549,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 118.11) (xy 90.17 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "465cffab-4c58-49a9-bbc0-afe1978050d0")
+	)
+	(wire
+		(pts
 			(xy 180.34 97.79) (xy 180.34 99.06)
 		)
 		(stroke
@@ -2536,6 +2579,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 124.46) (xy 83.82 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c3ffa97-9898-45e5-9d4b-b56fee4f165f")
+	)
+	(wire
+		(pts
 			(xy 138.43 85.09) (xy 138.43 97.79)
 		)
 		(stroke
@@ -2543,16 +2596,6 @@
 			(type default)
 		)
 		(uuid "4defea85-784a-4aa1-a305-b167913fafd7")
-	)
-	(wire
-		(pts
-			(xy 53.34 44.45) (xy 53.34 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51aef633-3d71-462f-a6c8-935f2c158287")
 	)
 	(wire
 		(pts
@@ -2693,6 +2736,16 @@
 			(type default)
 		)
 		(uuid "5e8fa8a7-116f-4f0f-988f-03aa63dd3a4b")
+	)
+	(wire
+		(pts
+			(xy 66.04 102.87) (xy 66.04 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb4bb5d-5c57-4581-9665-6d7b45d90b56")
 	)
 	(wire
 		(pts
@@ -3026,6 +3079,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 97.79) (xy 78.74 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d301a19-02c8-4212-ad2a-b6417756fecd")
+	)
+	(wire
+		(pts
 			(xy 68.58 34.29) (xy 74.93 34.29)
 		)
 		(stroke
@@ -3033,6 +3096,16 @@
 			(type default)
 		)
 		(uuid "8f771213-4f7e-4bab-8b81-bc66f2de692c")
+	)
+	(wire
+		(pts
+			(xy 72.39 97.79) (xy 72.39 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9144ff04-d6cb-43ac-8152-574d6ba08cdc")
 	)
 	(wire
 		(pts
@@ -3076,7 +3149,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 118.11) (xy 90.17 118.11)
+			(xy 78.74 118.11) (xy 83.82 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3246,6 +3319,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 120.65) (xy 66.04 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0d7ca2-4f5b-430e-858b-b0c1ca0b348c")
+	)
+	(wire
+		(pts
 			(xy 161.29 176.53) (xy 148.59 176.53)
 		)
 		(stroke
@@ -3263,6 +3346,16 @@
 			(type default)
 		)
 		(uuid "b0e91b12-f104-4945-a8f8-439b8f530c7e")
+	)
+	(wire
+		(pts
+			(xy 66.04 110.49) (xy 66.04 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b138c6a3-91fb-45a6-9db0-cbc654c56fdd")
 	)
 	(wire
 		(pts
@@ -3386,7 +3479,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 97.79) (xy 78.74 97.79)
+			(xy 67.31 97.79) (xy 72.39 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4102,92 +4195,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4002")
-		(at 107.95 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "005564c9-f182-43cd-a9e0-3e4820aec184")
-		(property "Reference" "D7"
-			(at 107.95 136.8255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4002"
-			(at 107.95 139.2498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 107.95 146.685 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 107.95 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 1A General Purpose Rectifier Diode, DO-41"
-			(at 107.95 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 107.95 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 107.95 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1c40eed6-9f6b-4497-b115-c6e115d40963")
-		)
-		(pin "1"
-			(uuid "cb039dcf-fb6a-4f49-8d82-35da5e2f9f6d")
-		)
-		(instances
-			(project "10GHz_VCXO_TX"
-				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/65172ad7-09b9-4284-abd1-b4ce970d45cb"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 168.91 41.91 0)
 		(unit 1)
@@ -4328,17 +4335,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 156.21 40.64 180)
+		(lib_id "Device:LED")
+		(at 66.04 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "250f830d-da0a-4a2e-ab82-dc959862f346")
-		(property "Reference" "C17"
-			(at 159.131 39.4278 0)
+		(uuid "0cf7f263-edfb-471b-82b6-e7af2b6458b5")
+		(property "Reference" "D2"
+			(at 68.961 107.0553 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4346,8 +4352,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" ">1u"
-			(at 159.131 41.8521 0)
+		(property "Value" "LED"
+			(at 68.834 109.474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,8 +4361,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 155.2448 36.83 0)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z10.0mm"
+			(at 66.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4365,7 +4371,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 40.64 0)
+			(at 66.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4373,8 +4379,94 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 156.21 40.64 0)
+		(property "Description" "Light emitting diode"
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69d59fe4-9002-4b0f-8a18-ccdd45738d3d")
+		)
+		(pin "1"
+			(uuid "8ec00e56-7184-4b93-bc4f-d30bd3109c56")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/65172ad7-09b9-4284-abd1-b4ce970d45cb"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 115.57 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1de274ce-f43a-44e3-88b9-5f1073410a67")
+		(property "Reference" "D4"
+			(at 115.57 17.4455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S2MA"
+			(at 115.57 19.8698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 115.57 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/2863973.pdf"
+			(at 115.57 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MULTICOMP PRO S2MA Standard Recovery Diode, 1 kV, 2 A, Single, 1.1 V, 60 A"
+			(at 115.57 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 115.57 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 115.57 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4383,15 +4475,171 @@
 			)
 		)
 		(pin "1"
-			(uuid "a15f06dc-7e06-44ed-9305-2bea82fdae00")
+			(uuid "017c8450-4a48-40bb-815b-ef005ba33494")
 		)
 		(pin "2"
-			(uuid "79eff638-1080-4192-94f6-ae2f2165124b")
+			(uuid "c3afbad8-08d7-4171-916b-91672212f144")
 		)
 		(instances
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/65172ad7-09b9-4284-abd1-b4ce970d45cb"
-					(reference "C17")
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 66.04 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f27f07f-e41f-4891-8cef-76ef92f8a0bf")
+		(property "Reference" "R4"
+			(at 67.818 115.6278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R?"
+			(at 67.818 118.0521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 67.818 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 66.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b9ee4aca-d36e-4f5b-aa7a-cd35c379a958")
+		)
+		(pin "1"
+			(uuid "3dd4e7d4-5360-4b7b-b268-714fde9e839d")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/65172ad7-09b9-4284-abd1-b4ce970d45cb"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 116.84 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25d25a38-5826-4fde-aeb0-de7096eaad03")
+		(property "Reference" "D5"
+			(at 116.84 79.6755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S2MA"
+			(at 116.84 82.0998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 116.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/2863973.pdf"
+			(at 116.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MULTICOMP PRO S2MA Standard Recovery Diode, 1 kV, 2 A, Single, 1.1 V, 60 A"
+			(at 116.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 116.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 116.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce1390e2-1bb1-4aad-816a-fb7b9223f2ca")
+		)
+		(pin "2"
+			(uuid "17f412e5-270c-4fa4-ae4a-0a42504ebf03")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/65172ad7-09b9-4284-abd1-b4ce970d45cb"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4817,76 +5065,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 148.59 160.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e9543e8-0d7b-4752-9210-946384ff3741")
-		(property "Reference" "C16"
-			(at 151.511 158.8078 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ">1u"
-			(at 151.511 161.2321 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 147.6248 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 148.59 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9a3627a-ff54-445c-9dbf-a6d26d89f7c2")
-		)
-		(pin "2"
-			(uuid "8ad7cfae-91b1-4027-9c11-ddbdefdf90fa")
-		)
-		(instances
-			(project "10GHz_VCXO_TX"
-				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/65172ad7-09b9-4284-abd1-b4ce970d45cb"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 114.3 119.38 0)
 		(unit 1)
@@ -5299,41 +5477,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4002")
-		(at 116.84 85.09 0)
+		(lib_id "Device:D")
+		(at 107.95 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "515ba25c-df26-4794-921f-6805cef3a866")
-		(property "Reference" "D9"
-			(at 116.84 79.6755 0)
+		(fields_autoplaced yes)
+		(uuid "5978c86c-7f91-4074-956a-e2bf0dcf5344")
+		(property "Reference" "D6"
+			(at 107.95 136.8255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1N4002"
-			(at 116.84 82.0998 0)
+		(property "Value" "S2MA"
+			(at 107.95 139.2498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 116.84 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 116.84 85.09 0)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 107.95 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5341,8 +5511,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100V 1A General Purpose Rectifier Diode, DO-41"
-			(at 116.84 85.09 0)
+		(property "Datasheet" "https://www.farnell.com/datasheets/2863973.pdf"
+			(at 107.95 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MULTICOMP PRO S2MA Standard Recovery Diode, 1 kV, 2 A, Single, 1.1 V, 60 A"
+			(at 107.95 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5351,7 +5530,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 116.84 85.09 0)
+			(at 107.95 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5360,7 +5539,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 116.84 85.09 0)
+			(at 107.95 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5368,16 +5547,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "3fa76297-7208-433d-8300-38917a6c5182")
-		)
 		(pin "1"
-			(uuid "2d8c2bd5-e6b6-41c8-852c-cde056b7477c")
+			(uuid "db97e1f1-9ce1-45f4-9a39-59c3c90ec51c")
+		)
+		(pin "2"
+			(uuid "d60463db-502b-4347-ad03-995483f0d60f")
 		)
 		(instances
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/65172ad7-09b9-4284-abd1-b4ce970d45cb"
-					(reference "D9")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -5810,6 +5989,76 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 148.59 160.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4af3a1f-08ef-49b8-be01-ec3e218f16d1")
+		(property "Reference" "C16"
+			(at 151.511 158.8078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 151.511 161.2321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 147.6248 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 148.59 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f4e58fa-a1f0-4030-9b57-1986511a21ef")
+		)
+		(pin "2"
+			(uuid "1450d4eb-6c9e-4fad-a06e-fdc688557715")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/65172ad7-09b9-4284-abd1-b4ce970d45cb"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 90.17 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5905,7 +6154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 44.45 39.37 0)
 			(effects
 				(font
@@ -5923,7 +6172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Zener diode, filled shape"
+		(property "Description" "SMAZ10-13-F Zener Diode 10V 1W"
 			(at 44.45 39.37 0)
 			(effects
 				(font
@@ -6299,92 +6548,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4002")
-		(at 115.57 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd12b434-54eb-48f9-a45a-5bff8e6ce248")
-		(property "Reference" "D8"
-			(at 115.57 17.4455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4002"
-			(at 115.57 19.8698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 115.57 27.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 115.57 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 1A General Purpose Rectifier Diode, DO-41"
-			(at 115.57 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 115.57 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 115.57 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d49b3d44-5f1f-487a-874b-39dfcf79f7fc")
-		)
-		(pin "1"
-			(uuid "a73fbd54-f672-42b0-8088-3714cf6e8ecf")
-		)
-		(instances
-			(project "10GHz_VCXO_TX"
-				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/65172ad7-09b9-4284-abd1-b4ce970d45cb"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 107.95 171.45 180)
 		(unit 1)
@@ -6595,6 +6758,76 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 156.21 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db2ebd22-27aa-40f6-aaac-f6c4fb0b0361")
+		(property "Reference" "C17"
+			(at 159.131 39.4278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 159.131 41.8521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 155.2448 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 156.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99442d6e-3e70-42e8-9c9f-438587254183")
+		)
+		(pin "2"
+			(uuid "34655025-ec9c-40c4-a54a-566eb3b8e94b")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/65172ad7-09b9-4284-abd1-b4ce970d45cb"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 101.6 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6658,76 +6891,6 @@
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/65172ad7-09b9-4284-abd1-b4ce970d45cb"
 					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 53.34 50.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd7fcafd-27e9-422e-9ea2-3774dd717421")
-		(property "Reference" "R4"
-			(at 55.118 49.5878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R?"
-			(at 55.118 52.0121 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 55.118 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 53.34 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "98d468e6-bf09-4eed-a0b7-98c6bc854bde")
-		)
-		(pin "1"
-			(uuid "c55c9c44-4dd7-4fd8-bbeb-968db33d906a")
-		)
-		(instances
-			(project "10GHz_VCXO_TX"
-				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/65172ad7-09b9-4284-abd1-b4ce970d45cb"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7074,75 +7237,6 @@
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/65172ad7-09b9-4284-abd1-b4ce970d45cb"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 53.34 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc0d7816-e9b9-4ebc-8d34-c6e05890474a")
-		(property "Reference" "D3"
-			(at 56.261 41.0153 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 56.134 43.434 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z10.0mm"
-			(at 53.34 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 53.34 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a960b62a-94fd-4a57-b3b6-e0df5c02e68c")
-		)
-		(pin "1"
-			(uuid "336433d8-509f-41c5-baac-498a736f4a0d")
-		)
-		(instances
-			(project "10GHz_VCXO_TX"
-				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/65172ad7-09b9-4284-abd1-b4ce970d45cb"
-					(reference "D3")
 					(unit 1)
 				)
 			)
