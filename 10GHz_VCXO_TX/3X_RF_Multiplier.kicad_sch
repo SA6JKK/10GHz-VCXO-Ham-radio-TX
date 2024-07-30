@@ -3944,7 +3944,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "10nH"
 			(at 133.3472 60.9021 0)
 			(effects
 				(font

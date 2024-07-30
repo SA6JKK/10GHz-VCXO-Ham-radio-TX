@@ -2334,7 +2334,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0c799151-8c9d-4c58-b626-a8bf863e249a")
 		(property "Reference" "R14"
@@ -3027,7 +3027,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "27nH"
 			(at 153.6672 63.4421 0)
 			(effects
 				(font

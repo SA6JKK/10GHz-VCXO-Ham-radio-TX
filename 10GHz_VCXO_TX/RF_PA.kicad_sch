@@ -2822,7 +2822,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "2.7nH"
 			(at 154.9372 58.3621 0)
 			(effects
 				(font

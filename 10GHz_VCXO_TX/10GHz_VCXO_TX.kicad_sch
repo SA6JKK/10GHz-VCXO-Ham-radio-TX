@@ -164,7 +164,7 @@
 		(instances
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492"
-					(page "4")
+					(page "2")
 				)
 			)
 		)
