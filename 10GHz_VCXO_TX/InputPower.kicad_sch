@@ -4112,7 +4112,7 @@
 	)
 	(global_label "P3V3"
 		(shape input)
-		(at 165.1 153.67 0)
+		(at 172.72 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4122,7 +4122,7 @@
 		)
 		(uuid "f3c89bdf-a324-478a-be72-feea2a7ad990")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.8628 153.67 0)
+			(at 180.4828 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4160,7 +4160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.7"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 169.8752 45.72 0)
 			(effects
 				(font
@@ -5346,7 +5346,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 143.51 160.02 180)
+		(at 143.51 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5360,7 +5360,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "100nF"
@@ -5369,11 +5369,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 142.5448 156.21 0)
+			(at 144.4752 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5743,7 +5743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.7"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 144.4752 106.68 0)
 			(effects
 				(font
@@ -5927,7 +5927,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 156.21 160.02 180)
+		(at 156.21 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5941,7 +5941,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "10uF"
@@ -5950,11 +5950,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 155.2448 156.21 0)
+			(at 157.1752 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6162,7 +6162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.7"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 69.5452 45.72 0)
 			(effects
 				(font
@@ -7208,7 +7208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.7"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 169.8752 165.1 0)
 			(effects
 				(font
