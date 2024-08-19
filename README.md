@@ -15,8 +15,10 @@ VCXO control from external BNC connector. FSK-CW or FSK modes.
 
 # Project Status: 
 
-Schematic: Finished unless I can get hold of all components. 
+Schematic: Finished 
 
 Layout: Everything placed and routed. To be cleaned up and final check
 
 Verification: Board not ordered yet
+
+![Render of PCB](VCXO_TX_Render_v1.png?raw=true)
