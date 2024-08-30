@@ -920,6 +920,219 @@
 				)
 			)
 		)
+		(symbol "RF:TCP-2-10X"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TCP-2-10X"
+				(at 6.35 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "RF_Mini-Circuits:Mini-Circuits_DB1627"
+				(at -3.81 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.minicircuits.com/pdfs/TCP-2-10X+.pdf"
+				(at -1.27 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power splitter combiner, 5 to 1000 MHz, 2 way 0-degree, 50 ohm, Mini-Circuits DB1627"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "splitter combiner"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Mini?Circuits*DB1627*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TCP-2-10X_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 0 0) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TCP-2-10X_1_1"
+				(pin passive line
+					(at -5.08 -10.16 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 3.81) hide
+					(name "CON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 5.08)
+					(name "PORT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "PORT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(name "CON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "SUM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1042,6 +1255,18 @@
 		(uuid "5e0d4216-9492-4cf8-8d4d-08442506c8b4")
 	)
 	(junction
+		(at 92.71 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "609f656a-5058-42da-8945-a51e8c43219d")
+	)
+	(junction
+		(at 177.8 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f6e0251-2114-437e-95f7-cc6d82fdfff5")
+	)
+	(junction
 		(at 120.65 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1133,6 +1358,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 85.09) (xy 177.8 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "432b65bf-1a81-4cc9-9879-ed0907d4bf0c")
+	)
+	(wire
+		(pts
 			(xy 120.65 41.91) (xy 134.62 41.91)
 		)
 		(stroke
@@ -1163,7 +1398,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 67.31) (xy 173.99 67.31)
+			(xy 189.23 67.31) (xy 177.8 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1273,6 +1508,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.8391 93.98) (xy 92.71 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83839ee9-f1c7-4c99-b48e-f7bb897b135e")
+	)
+	(wire
+		(pts
 			(xy 152.4 43.18) (xy 152.4 41.91)
 		)
 		(stroke
@@ -1280,6 +1525,16 @@
 			(type default)
 		)
 		(uuid "86b799c8-0504-4b96-933e-d5bbc09cbf73")
+	)
+	(wire
+		(pts
+			(xy 177.8 67.31) (xy 173.99 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "915d0d2d-db38-4a7f-9227-6fc64b722753")
 	)
 	(wire
 		(pts
@@ -1313,6 +1568,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 93.98) (xy 103.4591 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d00925-b6eb-4dce-9670-02f1e59f44cd")
+	)
+	(wire
+		(pts
 			(xy 64.77 100.33) (xy 64.77 99.06)
 		)
 		(stroke
@@ -1330,6 +1595,16 @@
 			(type default)
 		)
 		(uuid "dc3d960d-95f0-41cd-af6d-96d76df2a87d")
+	)
+	(wire
+		(pts
+			(xy 177.8 67.31) (xy 177.8 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31dedf0-1383-430c-afb7-41ba8e520852")
 	)
 	(wire
 		(pts
@@ -2071,9 +2346,29 @@
 			"AAAAAElFTkSuQmCC"
 		)
 	)
+	(text "TCD-9-1WX+\n"
+		(exclude_from_sim no)
+		(at 178.054 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "04488758-1ecd-4f60-bb34-780980b569d9")
+	)
+	(text "Rätt footprint"
+		(exclude_from_sim no)
+		(at 168.402 103.124 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "29bd468a-c2b9-403c-8aa3-4411f7d0d917")
+	)
 	(text "AMK-3-452+ has input/output switched compared to AMK-2-13 footprint\nRequires 10-14 dBm input power"
 		(exclude_from_sim no)
-		(at 177.546 88.392 0)
+		(at 189.738 88.646 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3308,6 +3603,86 @@
 		)
 	)
 	(symbol
+		(lib_id "RF:TCP-2-10X")
+		(at 186.69 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5d6e2ce-becd-456a-ac41-5be61cf3249a")
+		(property "Reference" "U12"
+			(at 186.69 93.6455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TCP-2-10X"
+			(at 186.69 96.0698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RF_Mini-Circuits:Mini-Circuits_DB1627"
+			(at 182.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/TCP-2-10X+.pdf"
+			(at 185.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power splitter combiner, 5 to 1000 MHz, 2 way 0-degree, 50 ohm, Mini-Circuits DB1627"
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9d5da147-9778-45e5-b40b-dc2d9c80f6d0")
+		)
+		(pin "4"
+			(uuid "acf7dfd1-8709-49b7-8e3d-28e45d0c1f3a")
+		)
+		(pin "6"
+			(uuid "9c17a61e-9b76-4db0-b622-79ead45a0243")
+		)
+		(pin "5"
+			(uuid "16985373-08fc-451c-a7e2-3550e0ceba14")
+		)
+		(pin "1"
+			(uuid "82cbaabd-21e8-412f-80f9-c877d3f7aacb")
+		)
+		(pin "2"
+			(uuid "aeff8443-27a5-441b-852a-a87d632aaca5")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 76.2 67.31 90)
 		(unit 1)
@@ -3511,6 +3886,74 @@
 			(project "10GHz_VCXO_TX"
 				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.6491 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "e31f4ae6-09e0-4f7a-8267-5201432314f2")
+		(property "Reference" "R28"
+			(at 99.6491 88.8195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 99.6491 91.2438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 99.6491 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.6491 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.6491 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0653ac4-f240-41c0-b2ff-08f80178f8f7")
+		)
+		(pin "1"
+			(uuid "cf758591-632e-49b5-91bb-05d43e6ff493")
+		)
+		(instances
+			(project "10GHz_VCXO_TX"
+				(path "/5c8d050a-3ec5-41af-bb0d-cc57adb5a492/7faba6a2-b812-48e8-996b-17a09271428a"
+					(reference "R28")
 					(unit 1)
 				)
 			)
