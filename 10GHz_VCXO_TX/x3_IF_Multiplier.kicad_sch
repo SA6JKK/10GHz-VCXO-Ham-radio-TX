@@ -725,23 +725,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U13"
+				(at 0 1.2615 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "TCD-9-1WX+"
+				(at 0 -0.4199 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "RF_Mini-Circuits:Mini-Circuits_DB1627"
 				(at 0 0 0)
 				(effects
 					(font
@@ -750,7 +750,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.minicircuits.com/pdfs/TCD-9-1WX+.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -759,13 +759,29 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Directional Coupler SURFACE MOUNT TCD-9-1WX+ 50Ω 5 to 2000 MHz"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Gain" "-1.6 dB"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Coupling" "9 dB"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "TCD-9-1WX+_0_1"
@@ -782,24 +798,6 @@
 				)
 			)
 			(symbol "TCD-9-1WX+_1_1"
-				(pin output line
-					(at -5.08 -21.59 90)
-					(length 2.54)
-					(name "EXT_50_ohm"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin output line
 					(at 10.16 -7.62 180)
 					(length 2.54)
@@ -883,6 +881,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 -21.59 90)
+					(length 2.54)
+					(name "EXT_50_ohm"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3176,7 +3192,6 @@
 		)
 		(property "Gain" "-1.6 dB"
 			(at 181.61 59.944 0)
-			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,14 +3200,13 @@
 		)
 		(property "Coupling" "9 dB"
 			(at 181.61 57.15 0)
-			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin ""
+		(pin "6"
 			(uuid "4c012241-dc53-40e2-8fca-d93f2437afe4")
 		)
 		(pin "1"
