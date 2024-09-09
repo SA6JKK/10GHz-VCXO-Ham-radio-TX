@@ -21,4 +21,4 @@ Layout: Everything placed and routed. To be cleaned up and final check
 
 Verification: Board not ordered yet
 
-![Render of PCB](VCXO_TX_Render_v2.png?raw=true)
+![Render of PCB](VCXO_TX_Render_v3.png?raw=true)
