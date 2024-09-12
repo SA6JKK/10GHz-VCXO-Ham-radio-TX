@@ -2286,6 +2286,16 @@
 		)
 		(uuid "0d4cef9b-6748-47f9-8cb9-99687bb75e34")
 	)
+	(text "~ 1-2 dB trace loss here"
+		(exclude_from_sim no)
+		(at 198.12 53.086 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "38ef9d6c-4fbf-41e2-9160-d4bbdd98c092")
+	)
 	(text "5V 30mA = 150mW"
 		(exclude_from_sim no)
 		(at 66.294 23.622 0)

@@ -2657,7 +2657,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 66.04 41.91 180)
+		(at 66.04 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2671,7 +2671,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "100nF"
@@ -2680,11 +2680,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 65.0748 38.1 0)
+			(at 67.0052 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
