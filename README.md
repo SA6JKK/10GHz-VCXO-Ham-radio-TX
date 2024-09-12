@@ -17,8 +17,8 @@ Aim for Aisler four layer "HD PCB" stackup for somewhat close to 50 ohms with ch
 
 Schematic: Finished 
 
-Layout: Everything placed and routed. To be cleaned up and final check
+Layout: Finished and ordered
 
-Verification: Board not ordered yet
+Verification: Board not delivered yet
 
 ![Render of PCB](VCXO_TX_Render_v3.png?raw=true)
