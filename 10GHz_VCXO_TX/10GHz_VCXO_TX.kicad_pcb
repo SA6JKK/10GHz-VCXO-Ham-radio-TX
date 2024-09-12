@@ -23813,7 +23813,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "10368+-1 MHz VCXO TX \nSA6JKK\n2024-09-xx\n\n11-15V input\n0-3.3 V_CTRL\n0dBm output power\n\n\ngithub.com/SA6JKK/10GHz-VCXO-Ham-radio-TX"
+	(gr_text "10368+-1 MHz VCXO TX \nSA6JKK\n2024-09-12\n\n11-15V input\n0-3.3 V_CTRL\n0dBm output power\n\n\ngithub.com/SA6JKK/10GHz-VCXO-Ham-radio-TX"
 		(at 109.85 85.85 0)
 		(layer "F.SilkS")
 		(uuid "93232966-a4ad-498d-843b-2e26ec621737")
