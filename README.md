@@ -21,4 +21,4 @@ Layout: Finished and ordered
 
 Verification: Board not delivered yet
 
-![Render of PCB](VCXO_TX_Render_v3.png?raw=true)
+![Render of PCB](VCXO_TX_Render_v4.png?raw=true)
