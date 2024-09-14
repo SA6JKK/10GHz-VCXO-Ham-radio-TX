@@ -1,5 +1,5 @@
 # 10GHz-VCXO-Ham-radio-TX
- A 10 GHz VCXO based CW/FSK transmitter for ham radio
+ A 10 GHz VCXO based FSK transmitter for ham radio
 
 Goal: 0dBm to antenna. 
 
@@ -11,7 +11,7 @@ https://se.farnell.com/hammond/1455j1201rd/pcb-box-enclosure-alum-red/dp/2469294
 
 VCXO control from external BNC connector. FSK-CW or FSK modes. 
 
-Aim for Aisler four layer "HD PCB" stackup for somewhat close to 50 ohms with cheap FR4 substrate. 
+Aisler four layer "HD PCB" stackup for somewhat close to 50 ohms with cheap FR4 substrate. 
 
 # Project Status: 
 
