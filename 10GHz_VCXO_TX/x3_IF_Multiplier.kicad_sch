@@ -2381,6 +2381,18 @@
 		)
 		(uuid "34a81aaf-460c-4fea-8789-1b8b20cb1ace")
 	)
+	(text "TODO: Add LP filter here"
+		(exclude_from_sim no)
+		(at 62.738 52.832 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "50bf28df-89cb-457c-beea-cac87b96972a")
+	)
 	(text "9V 65mA = 585mW"
 		(exclude_from_sim no)
 		(at 112.522 21.844 0)
@@ -2391,7 +2403,7 @@
 		)
 		(uuid "59ab3027-11d7-4918-a665-213dbab4ced5")
 	)
-	(text "1.7dB attenuator"
+	(text "6.1dB attenuator"
 		(exclude_from_sim no)
 		(at 63.5 57.658 0)
 		(effects
@@ -2542,7 +2554,7 @@
 			)
 		)
 	)
-	(hierarchical_label "1152MHz_IN-5dBm"
+	(hierarchical_label "1152MHz_IN-1dBm"
 		(shape input)
 		(at 46.99 67.31 180)
 		(fields_autoplaced yes)
@@ -3003,7 +3015,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "150"
 			(at 70.358 72.3321 0)
 			(effects
 				(font
@@ -3943,7 +3955,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "39"
 			(at 62.23 64.5738 90)
 			(effects
 				(font
@@ -4083,7 +4095,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "150"
 			(at 55.118 72.3321 0)
 			(effects
 				(font

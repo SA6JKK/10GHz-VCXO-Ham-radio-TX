@@ -1976,7 +1976,7 @@
 			"AElFTkSuQmCC"
 		)
 	)
-	(text "Always enabled. Internal pull up \nLVDS output\n100 ppm pulling range\n1.65V nominal frequency 1152 MHz\n-4dBm = 10 log ( (200mV * 200mV / 100ohm) / 1mW) "
+	(text "Always enabled. Internal pull up \nLVDS output\n100 ppm pulling range\n1.65V nominal frequency 1152 MHz\n"
 		(exclude_from_sim no)
 		(at 66.04 91.948 0)
 		(effects
@@ -1987,7 +1987,7 @@
 		)
 		(uuid "098f43e8-b643-4b3e-88d7-21bbb5221871")
 	)
-	(text "-4dBm here?"
+	(text "Approximately 0dBm here"
 		(exclude_from_sim no)
 		(at 114.808 57.658 0)
 		(effects
@@ -2083,7 +2083,7 @@
 			)
 		)
 	)
-	(hierarchical_label "VCXO_1152_MHz_OUT-5dBm"
+	(hierarchical_label "VCXO_1152_MHz_OUT-1dBm"
 		(shape output)
 		(at 167.64 64.77 0)
 		(fields_autoplaced yes)

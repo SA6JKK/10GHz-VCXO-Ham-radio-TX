@@ -21,13 +21,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.055 70.485) (xy 70.485 70.485)
+			(xy 59.69 69.85) (xy 69.85 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81e4c856-aa3f-427f-b059-d4ed85d0eaf0")
+		(uuid "a24443fb-44bb-442a-beca-b910869cf405")
 	)
 	(wire
 		(pts
@@ -89,7 +89,7 @@
 	)
 	(sheet
 		(at 30.48 63.5)
-		(size 28.575 27.94)
+		(size 29.21 27.94)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -117,15 +117,15 @@
 				(justify left top)
 			)
 		)
-		(pin "VCXO_1152_MHz_OUT-5dBm" output
-			(at 59.055 70.485 0)
+		(pin "VCXO_1152_MHz_OUT-1dBm" output
+			(at 59.69 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "dfbfd24f-74f9-48cf-ab7b-3c19543791a6")
+			(uuid "fbedba4c-dcf4-4941-b740-16830d4ef903")
 		)
 		(instances
 			(project "10GHz_VCXO_TX"
@@ -174,8 +174,8 @@
 		)
 	)
 	(sheet
-		(at 70.485 63.5)
-		(size 22.225 27.94)
+		(at 69.85 63.5)
+		(size 22.86 27.94)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -186,7 +186,7 @@
 		)
 		(uuid "7faba6a2-b812-48e8-996b-17a09271428a")
 		(property "Sheetname" "x3_IF_Multiplier"
-			(at 70.485 62.7884 0)
+			(at 69.85 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -195,23 +195,13 @@
 			)
 		)
 		(property "Sheetfile" "x3_IF_Multiplier.kicad_sch"
-			(at 70.485 92.0246 0)
+			(at 69.85 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
-		)
-		(pin "1152MHz_IN-5dBm" input
-			(at 70.485 70.485 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a8c050da-bfef-4316-9523-86facedfa53d")
 		)
 		(pin "3456MHz-2dBm_OUT" output
 			(at 92.71 78.74 0)
@@ -222,6 +212,16 @@
 				(justify right)
 			)
 			(uuid "6060c711-ddde-47bb-81fe-b244b433cc83")
+		)
+		(pin "1152MHz_IN-1dBm" input
+			(at 69.85 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "978ac50a-15aa-4b28-8ede-e04710950b4f")
 		)
 		(instances
 			(project "10GHz_VCXO_TX"
