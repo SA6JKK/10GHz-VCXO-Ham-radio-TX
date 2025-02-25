@@ -2307,6 +2307,26 @@
 		)
 		(uuid "6bfeca23-e4c9-425b-804d-f0a8b15db633")
 	)
+	(text "TODO: Other filter here"
+		(exclude_from_sim no)
+		(at 61.722 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "797c98d9-720e-4cc8-915b-0b03a06092ba")
+	)
+	(text "TODO: Remove amplifier completely?"
+		(exclude_from_sim no)
+		(at 126.746 50.292 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c434c21d-d304-4bd7-b1b9-23da582dabd7")
+	)
 	(text "Gain: 11.6dB\nOP1dB: 11.6 dB\nOIP3: 23.5 dB\nAt 10.0 GHz"
 		(exclude_from_sim no)
 		(at 122.682 98.298 0)
@@ -2317,6 +2337,16 @@
 			(justify left)
 		)
 		(uuid "df124021-3470-425d-873b-2af3262a8348")
+	)
+	(text "TODO: Simulate and omptimize SMA connector"
+		(exclude_from_sim no)
+		(at 231.14 48.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f44e5658-3f84-4b56-a439-6a9a373fcf00")
 	)
 	(label "10386MHz-9dBm"
 		(at 81.28 63.5 0)
