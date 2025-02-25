@@ -21,7 +21,7 @@ Layout: Finished and ordered
 
 Verification: Not fully working :(
 
-![Assembled PCB](Assembeld_10GHz_VCXO_TX.JPG?raw=true)
+![Assembled PCB](Assembled_10GHz_VCXO_TX.JPG?raw=true)
 
 
 ![Render of PCB](VCXO_TX_Render_v4.png?raw=true)
